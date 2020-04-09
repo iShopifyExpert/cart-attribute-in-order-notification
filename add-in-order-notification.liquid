@@ -1,0 +1,24 @@
+{% if attributes.gift-message != blank %}
+ <tr class="subtotal-line">
+  <td class="subtotal-line__title">
+    <p>
+      <span>If this is a gift, you can include a message here:</span>
+    </p>
+  </td>
+  <td class="subtotal-line__value">
+    <strong>{{attributes.gift-message}}</strong>
+  </td>
+</tr>
+{% endif %}
+{% if attributes.delivery-instructions != blank %}
+ <tr class="subtotal-line">
+  <td class="subtotal-line__title">
+    <p>
+      <span>If you have specific delivery instructions, please leave here:</span>
+    </p>
+  </td>
+  <td class="subtotal-line__value">
+    <strong>{{attributes.delivery-instructions}}</strong>
+  </td>
+</tr>
+{% endif %}
