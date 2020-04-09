@@ -1,5 +1,5 @@
 # cart-attribute-in-order-notification
-
+[code]
 <div class="mess-box">
             <div class="inner-msg">
               <p class="cart-attribute__field">
@@ -14,3 +14,5 @@
               </p>
             </div>
           </div>
+
+[/code]
