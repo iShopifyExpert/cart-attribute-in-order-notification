@@ -1,7 +1,7 @@
 # cart-attribute-in-order-notification
-[html]
-<div class="mess-box">
-            <div class="inner-msg">
+
+            
+            <div class="mess-box"><div class="inner-msg">
               <p class="cart-attribute__field">
                 <label for="if-this-is-a-gift-you-can-include-a-message-here">If this is a gift, you can include a message here:</label>
                 <textarea id="if-this-is-a-gift-you-can-include-a-message-here" name="attributes[gift-message]">{{ cart.attributes["gift-message"] }}</textarea>
@@ -15,4 +15,3 @@
             </div>
           </div>
 
-[/html]
